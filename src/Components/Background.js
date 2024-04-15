@@ -1,16 +1,16 @@
-import React from "react"
+import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function Background () {
+function Background() {
   return (
-<Card style={{ backgroundImage: 'url(path/to/instacart-background.jpg)' }}> 
+    <Card style={{ backgroundImage: 'url(path/to/instacart-background.jpg)', backgroundSize: 'cover' }}>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Order groceries for delivery or pickup today</Card.Title>
         <Card.Text>
-         Order groceries for delivery or pickup today
+          Explore a wide variety of products and enjoy convenient shopping options.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Start Shopping</Button>
       </Card.Body>
     </Card>
   );
